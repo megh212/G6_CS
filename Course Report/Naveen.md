@@ -24,6 +24,6 @@ Below is a table summarizing the mini projects and final project completed durin
 | Description                               | Link                                    |
 |-------------------------------------------|-----------------------------------------|
 | Mini Projects:Cryptographic tool,tools research | [Click here]
-(https://github.com/GudeNaveen/G6_CS/tree/main/Mini%20Projects/Naveen)                         |
+(https://github.com/sure-trust/G6_CS/tree/main/Mini%20Projects/Naveen)                         |
 | Final Project:College Network using Cisco Packet Tracer     | [Click here]
-(https://github.com/GudeNaveen/G6_CS/tree/main/Final%20Capstone%20Project/Naveen)                         |
+(https://github.com/sure-trust/G6_CS/tree/main/Final%20Capstone%20Project/Naveen)                         |
