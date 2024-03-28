@@ -23,5 +23,5 @@ Below is a table summarizing the mini projects and final project completed durin
 
 | Description                                          | Link                                                                                  |
 |-------------------------------------------|--------------------------------------------------------------------------------------------------|
-| Mini Projects: encryption tool, 5 pentesting tool    | https://github.com/sure-trust/G6_CS/tree/main/Mini%20Projects/Uday                    |
-| Final Project: Campus network in Cisco packet tracer | https://github.com/sure-trust/G6_CS/tree/main/Final%20Capstone%20Project/Uday         |
+| Mini Projects: encryption tool, 5 pentesting tool    | [Click Here](https://github.com/sure-trust/G6_CS/tree/main/Mini%20Projects/Uday)                    |
+| Final Project: Campus network in Cisco packet tracer | [Click here](https://github.com/sure-trust/G6_CS/tree/main/Final%20Capstone%20Project/Uday)         |
