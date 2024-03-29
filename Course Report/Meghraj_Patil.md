@@ -23,6 +23,6 @@ Below is a table summarizing the mini-projects and final project completed durin
 
 | Description                               | Link                                    |
 |-------------------------------------------|-----------------------------------------|
-| Mini Projects: Security Tools and uses           | [Click Here](https://github.com/sure-trust/G6_CS/tree/main/Mini%20Projects/Amit%20Raj/5%20Security%20Tools)|
+| Mini Projects: Security Tools and uses           | [Click Here](https://github.com/megh212/G6_CS/tree/main/Mini%20Projects/Meghraj/Mini%20project%201)|
 | Mini Projects: Cryptography Tool          | [Click Here](https://github.com/sure-trust/G6_CS/tree/main/Mini%20Projects/Meghraj/Mini%20project%202)|
 | Final Project: Image Steganogarphy using LSB Method   | [Click Here](https://github.com/sure-trust/G6_CS/tree/main/Final%20Capstone%20Project/Meghraj)|
