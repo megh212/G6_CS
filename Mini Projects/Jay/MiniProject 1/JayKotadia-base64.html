@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASE64 Encryption & Decryption</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 70px;
+        }
+
+        textarea {
+            width: 70%;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+
+        #result {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Encryption | Decryption</h1>
+    
+    <label for="text">Enter Text:</label><br>
+    <textarea id="text" placeholder="Write Whatever You Like Here"></textarea><br>
+
+    <button onclick="encrypt()">Encrypt</button>
+    <button onclick="decrypt()">Decrypt</button>
+
+    <h3>Result:</h3>
+    <div id="result"></div>
+
+    <script>
+        function encrypt() {
+            var inputText = document.getElementById("text").value;
+            var encryptedText = btoa(inputText);
+            document.getElementById("result").innerText = encryptedText;
+        }
+
+        function decrypt() {
+            var encryptedText = document.getElementById("text").value;
+            try {
+                var decryptedText = atob(encryptedText);
+                document.getElementById("result").innerText = decryptedText;
+            } catch (error) {
+                document.getElementById("result").innerText = "Invalid base64 string for decryption.";
+            }
+        }
+    </script>
+</body>
+</html>
