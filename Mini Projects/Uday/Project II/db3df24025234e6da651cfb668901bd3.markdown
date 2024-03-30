@@ -1,0 +1,131 @@
+> **Burp Suite** :\
+> Burp Suite is a web application security testing tool. It is widely
+> used for finding various types of security vulnerabilities.
+> ![](vertopal_db3df24025234e6da651cfb668901bd3/media/image1.png){width="6.286111111111111in"
+> height="3.5342115048118985in"}![](vertopal_db3df24025234e6da651cfb668901bd3/media/image2.png){width="6.5in"
+> height="3.654465223097113in"}
+>
+> First you can open browser from the proxy tab
+>
+> **Examples** -\
+> 1. **Intercepting Proxy** : After turning this feature on it captures
+> and can be used to modify HTTP traffic.
+>
+> 2\. **Decoder** : Used to decode or encode a text or ciphertext
+> ![](vertopal_db3df24025234e6da651cfb668901bd3/media/image4.png){width="6.5in"
+> height="5.927083333333333in"}
+>
+> 3\. **Repeater** : Manually manipulate and reissue requests.
+>
+> In this example after category i manipulated it to 'or+1%3d1\--\' this
+> shows hidden data all of this done using repeater.
+>
+> 4\. **Intruder** : Automated attacks on web applications.
+>
+> ![](vertopal_db3df24025234e6da651cfb668901bd3/media/image3.png){width="5.676388888888889in"
+> height="3.188888888888889in"}
+>
+> **Nmap:**\
+> Nmap is an open-source network scanner used to discover hosts and
+> services on a computer network.
+> ![](vertopal_db3df24025234e6da651cfb668901bd3/media/image5.png){width="10.795833333333333in"
+> height="10.897442038495187in"}
+>
+> Example :\
+> 1 Basic Scan: **nmap 192.168.1.1**
+>
+> 2 Service Version Detection: **nmap** - **sV 192.168.1.1**
+>
+> 3 Operating System Detection: **nmap -O 192.168.1.1**
+> ![](vertopal_db3df24025234e6da651cfb668901bd3/media/image6.png){width="9.155555555555555in"
+> height="5.14748687664042in"}
+>
+> 4 Aggressive Scan: **nmap -A 192.168.1.1**
+>
+> **Gobuster:**\
+> Gobuster is a directory and file brute-forcing tool designed to locate
+> existing web resources on a target server.
+> ![](vertopal_db3df24025234e6da651cfb668901bd3/media/image7.png){width="11.379166666666666in"
+> height="11.756990376202975in"}
+>
+> Examples:\
+> 1. Basic directory brute force: **gobuster http://hello.com/ -w**\
+> **/usr/share/wordlists/dirbuster/directory-list-2.3-small.txt**
+>
+> 2\. Brute force with a specified extension: **gobuster dir -u
+> http://10.10.63.233 -w
+> /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt -x
+> php,html,txt**
+>
+> 3\. Brute force without a specific status code: **gobuster dir -u
+> https://hello.com/ -w
+> /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt -b 404**
+> ![](vertopal_db3df24025234e6da651cfb668901bd3/media/image8.png){width="8.368055555555555in"
+> height="4.704734251968504in"}
+>
+> 4\. Brute force with custom user-agent: **gobuster dir -u
+> http://10.10.63.233 -w
+> /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt -a
+> \"Admin"**
+>
+> 5\. Brute force with a specified number of threads: **gobuster dir -u
+> http://10.10.63.233 -w
+> /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt -t 10**
+> ![](vertopal_db3df24025234e6da651cfb668901bd3/media/image9.png){width="7.729166666666667in"
+> height="4.345534776902887in"}
+
+**Dirb:**
+
+> Purpose: Dirb is a web content scanner, specifically designed for
+> identifying and analyzing webserver directories.
+>
+> Examples:
+>
+> 1\. Basic directory scan: **dirb http://10.10.242.236**
+>
+> 2\. Scan with a specific wordlist: **dirb http://10.10.242.236 -w
+> /usr/share/dirb/wordlists/directory-list-2.0.txt**
+>
+> 3\. Scan a specific URL with a specified extension: **dirb
+> http://10.10.242.236 -w**
+>
+> **usr/share/dirb/wordlists/directory-list-2.0.txt -X .php**
+>
+> ![](vertopal_db3df24025234e6da651cfb668901bd3/media/image10.png){width="6.0in"
+> height="3.6555555555555554in"}
+>
+> 4\. Scan with a custom user-agent to find the response changes: **dirb
+> http://10.10.242.236 -w
+> /usr/share/dirb/wordlists/directory-list-2.0.txt -a \"pickle-rick\"**
+>
+> ![](vertopal_db3df24025234e6da651cfb668901bd3/media/image11.png){width="6.5in"
+> height="3.6555555555555554in"}
+>
+> **Nikto**\
+> Nikto is an open-source web server scanner designed to identify
+> potential security vulnerabilities on websites. By scanning for a wide
+> range of issues such as dangerous files, misconfigured services, and
+> vulnerable scripts, Nikto helps assess the overall security posture of
+> a website.
+>
+> Commands:\
+> **1. nikto -h https:hello.com**
+>
+> ![](vertopal_db3df24025234e6da651cfb668901bd3/media/image12.png){width="5.395833333333333in"
+> height="3.0416666666666665in"}
+>
+> **2. nikto -h https://hello.com -ipv4**
+>
+> ![](vertopal_db3df24025234e6da651cfb668901bd3/media/image13.png){width="6.5in"
+> height="3.6569444444444446in"}
+>
+> **3. nikto -h https://hello.com -output
+> /home/kali/Desktop/result.txt**
+>
+> ![](vertopal_db3df24025234e6da651cfb668901bd3/media/image14.png){width="6.5in"
+> height="3.6555544619422573in"}
+>
+> **4.sudo proxychains nikto -h https://hello.com**
+>
+> ![](vertopal_db3df24025234e6da651cfb668901bd3/media/image15.png){width="6.5in"
+> height="3.6569444444444446in"}
